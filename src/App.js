@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+
+
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import LandingPage from "./container/LandingPage/LandingPage";
+import SignIn from "./container/SignIn/SignIn";
+import HomePage from "./container/HomePage/HomePage";
+import {useAuth0} from '@auth0/auth0-react';
+
 
 function App() {
+  const {user, isAuthenticated, isLoading} = useAuth0() ;
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="app">
+        <Routes>
+          <Route
+            path="/"
+            element={isAuthenticated ? <HomePage /> : <LandingPage />}
+          />
+          {/*<Route path="/sign-in" element={<SignIn />} />*/}
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 

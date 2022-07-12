@@ -1,0 +1,51 @@
+
+
+.landingpagecontent_container{
+    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.landingpagecontent_title{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+.landingpagecontent_subtitle{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px 0;
+    color: white;
+}
+.landingpagecontent_description{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 500;
+}
+.landingpagecontent_input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    margin: 20px 0;
+}
+.landingpagecontent_input > input{
+    height: 34px;
+    width: 500px;
+    margin-top: 10px;
+}
+.landingpagecontent_button{
+    height: 39px;
+    width: 130px;
+    padding: 0 15px;
+    background-color:rgba(255, 0, 0, 0.816);
+    color: white;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
