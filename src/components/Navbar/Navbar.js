@@ -12,7 +12,7 @@ function Navbar({showSignInButton,logOut,show}) {
 
     const[dark, setDark] = useState(false);
     const transitionNavbar = () => {
-        if(window.scrollY > 120) {
+        if(window.scrollY > 100) {
             setDark(true)
         }else {
             setDark(false);

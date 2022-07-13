@@ -14,13 +14,13 @@
 }
 .navbar_dark{
     background-color:black;
-    height: 50px;
+    height: 55px;
 }
 
 .navbar_logo{
     position: fixed;
     left: 15px;
-    top: 10px;
+    top: 15px;
     height: 5vh;
     object-fit: contain;
     cursor: pointer;
@@ -36,12 +36,12 @@
     cursor: pointer;
     position: fixed;
     right: 15px;
-    top: 10px;
+    top: 15px;
 }
 .navbar_icon{
     position: fixed;
-    top: 8px;
-    right: 20px;
+    top: 10px;
+    right: 15px;
     cursor: pointer;
     color: rgba(255, 0, 0, 0.816);
 
@@ -51,7 +51,7 @@
     color: white;
     font-weight: 700;
     position: absolute;
-    top: 10px;
+    top: 13px;
     font-size: 1.1rem;
-    right: 100px
+    right: 90px
 }
