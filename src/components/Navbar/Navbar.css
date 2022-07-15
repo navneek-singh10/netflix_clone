@@ -19,7 +19,7 @@
 
 .navbar_logo{
     position: fixed;
-    left: 15px;
+    left: 20px;
     top: 15px;
     height: 5vh;
     object-fit: contain;
@@ -35,13 +35,13 @@
     border-radius: 8px;
     cursor: pointer;
     position: fixed;
-    right: 15px;
+    right: 20px;
     top: 15px;
 }
 .navbar_icon{
     position: fixed;
     top: 10px;
-    right: 15px;
+    right: 20px;
     cursor: pointer;
     color: rgba(255, 0, 0, 0.816);
 

@@ -11,8 +11,13 @@ function HomePage() {
       <Navbar showSignInButton={false} logOut={true} />
       <Banner />
       <Row
-        title="Now Playing"
+        title="Continue Watching"
         fetchUrl="https://api.themoviedb.org/3/movie/now_playing?api_key=c2850ebe04502724ace76f3435a8d0f6"
+        isLargeRow
+      />
+      <Row
+        title="Popular on Netflix"
+        fetchUrl="https://api.themoviedb.org/3/trending/all/week?api_key=3653c65d49aec32d55c3b5dd49c7b021&language=en-US"
         isLargeRow
       />
       <Row
@@ -28,6 +33,11 @@ function HomePage() {
       <Row
         title="Netflix Originals"
         fetchUrl=" https://api.themoviedb.org/3/discover/tv?api_key=c2850ebe04502724ace76f3435a8d0f6&with_networks=123"
+        isLargeRow
+      />
+      <Row
+        title="Documentaries"
+        fetchUrl="https://api.themoviedb.org/3/discover/movie?api_key=c2850ebe04502724ace76f3435a8d0f6&with_genres=99"
         isLargeRow
       />
       <Row

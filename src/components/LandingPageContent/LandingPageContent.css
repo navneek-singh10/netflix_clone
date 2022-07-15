@@ -7,6 +7,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-image: url("https://img.scoop.it/bkC3sgRi3SaKWQQxPxNyJ4XXXL4j3HpexhjNOf_P3YmryPKwJ94QGRtDb3Sbc6KY");
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(32, 29, 29, 0.595);
+    background-blend-mode: multiply;
 }
 
 .landingpagecontent_title{

@@ -34,12 +34,12 @@
     height: 100px;
     object-fit: contain;
     padding: 0 5px;
-    transition: transform 0.2s;
+    transition: transform 0.1s;
     transition-timing-function: ease-out;
     cursor: pointer;
 }
 .row_poster:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .rowPoster_large{
     height: 225px!important;
