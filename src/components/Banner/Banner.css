@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     color: white;
-    z-index: -1;
+    z-index: 1;
 }
 .banner_contents{
     width: fit-content;
@@ -41,7 +41,7 @@
     cursor: pointer!important;
 }
 
-.banner_buttons > button:hover{
+.banner_buttons > button:hover {
     background-color: white;
     color: black!important;
     cursor: pointer!important;
