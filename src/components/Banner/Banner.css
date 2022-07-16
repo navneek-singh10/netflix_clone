@@ -43,6 +43,6 @@
 
 .banner_buttons > button:hover {
     background-color: white;
-    color: black!important;
+    color: rgba(255, 0, 0, 0.816);
     cursor: pointer!important;
 }
