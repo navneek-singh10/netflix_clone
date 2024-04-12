@@ -15,7 +15,6 @@ function SignIn() {
       {/* <SignInBody /> */}
      
 </div>
-    </div>
   );
 }
 
