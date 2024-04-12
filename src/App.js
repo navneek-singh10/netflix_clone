@@ -17,7 +17,7 @@ function App() {
             path="/"
             element={isAuthenticated ? <HomePage /> : <LandingPage />}
           />
-          <Route path="/sign-in" element={<SignIn />} />
+          {/* <Route path="/sign-in" element={<SignIn />} /> */}
         </Routes>
       </div>
     </BrowserRouter>
